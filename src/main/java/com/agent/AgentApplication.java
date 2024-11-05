@@ -1,10 +1,17 @@
 package com.agent;
 
-/**
- * @Author: 黄勇铭
- * @CreateTime: 2024-11-05  14:29
- * @Description: TODO
- * @Version: 1.0
- */
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+
+@Slf4j
+@SpringBootApplication
 public class AgentApplication {
+
+    public static void main(String[] args) {
+;
+        SpringApplication.run(AgentApplication.class,args);
+        log.info("启动完成");
+    }
 }

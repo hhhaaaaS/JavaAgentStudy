@@ -1,0 +1,5 @@
+server:
+  port: 8075
+spring:
+  application:
+    name: JavaAgentStudy
