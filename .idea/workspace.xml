@@ -4,20 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8172d81b-d16c-4f5e-a4a1-6a580bfb34e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/agent/agentClass/arthas/ArthasMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/agent/agentClass/arthas/ArthasMainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/jpms.args" afterDir="false" />
+    <list default="true" id="8172d81b-d16c-4f5e-a4a1-6a580bfb34e9" name="Default Changelist" comment="更新依赖">
+      <change afterPath="$PROJECT_DIR$/JavaAgentStudy-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agent/bytebuddy/BaseTiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agent/bytebuddy/BuddyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agent/bytebuddy/CreateMethodInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agent/doc/MyTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agent/doc/OrginMyTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agent/doc/RandomUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agent/doc/RollBackRandomUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/JavaAgentStudy_1_0_SNAPSHOT_jar_with_dependencies.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/agent/agentClass/arthas/ArthasMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agent/agentClass/arthas/ArthasMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/agent/agentClass/arthas/ArthasMainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agent/agentClass/arthas/ArthasMainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/agent/attach/MyAttach.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/JavaAgentStudy.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
@@ -35,6 +48,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/agent/agentClass/AgentMainClass.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/agent/agentClass/MyTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/application.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/agent/agentClass/arthas/ArthasMainTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/agent/agentClass/arthas/ArthasMain.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2oPz1pLJ4WVOL9u061G1YPdLTzY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -54,10 +75,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ReadonlyStatusHandler">
+    <option name="SHOW_DIALOG" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -68,7 +92,33 @@
       <recent name="C:\ideaProject\JavaAgentStudy\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.BuddyTest">
+    <configuration name="ArthasMainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.agent.agentClass.arthas.ArthasMainTest" />
+      <module name="JavaAgentStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.agent.agentClass.arthas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuddyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.agent.bytebuddy.BuddyTest" />
+      <module name="JavaAgentStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.agent.bytebuddy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AgentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="JavaAgentStudy" />
       <extension name="coverage">
@@ -84,6 +134,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.ArthasMainTest" />
+      <item itemvalue="Spring Boot.AgentApplication" />
+      <item itemvalue="Application.BuddyTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BuddyTest" />
+        <item itemvalue="Application.ArthasMainTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -97,7 +158,10 @@
       <option name="presentableId" value="Default" />
       <updated>1730785786941</updated>
       <workItem from="1730785789765" duration="19764000" />
-      <workItem from="1730861625187" duration="3097000" />
+      <workItem from="1730861625187" duration="3489000" />
+      <workItem from="1730865262019" duration="8813000" />
+      <workItem from="1731044579033" duration="4000" />
+      <workItem from="1731044602885" duration="5173000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1730786692612</created>
@@ -120,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1730801159179</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="更新依赖">
+      <created>1730864825338</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730864825338</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,10 +207,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="静态agent" />
-    <option name="LAST_COMMIT_MESSAGE" value="静态agent" />
+    <MESSAGE value="更新依赖" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新依赖" />
   </component>
 </project>

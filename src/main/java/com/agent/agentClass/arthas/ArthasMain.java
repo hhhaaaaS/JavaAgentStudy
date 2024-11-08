@@ -32,8 +32,9 @@ public class ArthasMain {
         }
 
         System.out.println("动态attach啦啦啦啦啦");
+        System.out.println("args:"+agentArgs);
 
-        Class[] classes = inst.getAllLoadedClasses();
+      /*  Class[] classes = inst.getAllLoadedClasses();
         for (Class classZ : classes) {
             classMap.put(classZ.getName(), classZ);
         }
@@ -46,14 +47,14 @@ public class ArthasMain {
 
         if ("removeTransformer".equals(methodName)) {
             removeTransformer(classFilePath);
-        }
+        }*/
     }
 
     public static void retransformClasses(String filePath) throws Exception {
         ClassFileTransformer classFileTransformer = new ClassFileTransformer() {
             @Override
             public byte[] transform(ClassLoader loader, String className, Class<?> classBeingRedefined, ProtectionDomain protectionDomain, byte[] classfileBuffer) throws IllegalClassFormatException {
-                if (!"cn/hutool/core/util/RandomUtil".equals(className)) {
+                if (!"com/agent/agentClass/MyTest".equals(className)) {
                     return null;
                 }
                 return ByteArrayUtil.getBytes(filePath);

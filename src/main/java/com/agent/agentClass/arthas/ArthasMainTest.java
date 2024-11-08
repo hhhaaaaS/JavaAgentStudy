@@ -15,8 +15,9 @@ import java.io.IOException;
  */
 public class ArthasMainTest {
 
-   /* public static void main(String[] args) throws IOException, AttachNotSupportedException, AgentLoadException, AgentInitializationException {
-        VirtualMachine virtualMachine= VirtualMachine.attach("sssss");
-        virtualMachine.loadAgent("C:/ideaProject/JavaAgentStudy/JavaAgentStudy-1.0-SNAPSHOT-jar-with-dependencies.jar");
-    }*/
+    public static void main(String[] args) throws IOException, AttachNotSupportedException, AgentLoadException, AgentInitializationException {
+        VirtualMachine virtualMachine= VirtualMachine.attach("24212");
+        String agentArgs = "param1=value1&param2=value2";
+        virtualMachine.loadAgent("C:/ideaProject/JavaAgentStudy/target/JavaAgentStudy-1.0-SNAPSHOT-jar-with-dependencies.jar",agentArgs);
+    }
 }
